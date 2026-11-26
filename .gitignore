@@ -1,0 +1,87 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+*.bak
+*.tmp
+*~
+
+# IDE / editor
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+.cursor/
+*.code-workspace
+
+# Flutter / Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+.pub-preload-cache/
+/build/
+/coverage/
+devtools_options.yaml
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# Local runnable outputs (keep on disk, do not push)
+/runnable build/
+*.apk
+*.aab
+*.ipa
+*.apks
+*.dSYM.zip
+*.dSYM
+
+# Android
+**/android/**/gradle-wrapper.jar
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+*.jks
+*.keystore
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux / Windows ephemeral
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Exceptions — keep default project plugin registrant stubs if present
+!**/ios/Runner/GeneratedPluginRegistrant.h
+!**/ios/Runner/GeneratedPluginRegistrant.m
+!**/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
