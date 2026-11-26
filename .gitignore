@@ -43,7 +43,6 @@ app.*.symbols
 app.*.map.json
 
 # Local runnable outputs (keep on disk, do not push)
-/runnable build/
 *.apk
 *.aab
 *.ipa
